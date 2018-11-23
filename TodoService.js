@@ -36,7 +36,6 @@ var TodoService = (function(service) {
 					}
 					if(!isNaN(wynik[x])) {
 							console.log("odleglosci miedzy " + _todos[x].description + " a " + _todos[y].description + ": " + wynik[x]);
-							suma += wynik[x];
 						}
 				}
 				
@@ -46,7 +45,7 @@ var TodoService = (function(service) {
 			//console.log(wynik);
 			//console.log(wynik.sort(compareNr));
 			
-		}console.log("Pelna trasa do pokonania to: " + suma);
+		}
 		
 	}
 	
